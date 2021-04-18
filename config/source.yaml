@@ -43,9 +43,6 @@
 - type: subscribe
   options:
     url: https://prom-php.herokuapp.com/cloudfra_ssr.txt
-- type: subscribe
-  options:
-    url: https://www.liesauer.net/yogurt/subscribe?ACCESS_TOKEN=DAYxR3mMaZAsaqUb
 
 # 网页模糊抓取
 - type: webfuzz
