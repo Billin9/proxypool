@@ -21,6 +21,18 @@
   options:
     channel: ssrList
     num: 200
+- type: tgchannel
+  options:
+    channel: ssList
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrshares
+    num: 200
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
