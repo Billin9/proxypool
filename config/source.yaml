@@ -4,9 +4,12 @@
     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
 # 订阅链接
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+    url: https://qxzy.top/tool.txt
 
 # 网页模糊抓取
 - type: webfuzz
@@ -28,6 +31,15 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+- type: clash
+  options:
+    url: http://ops.dosec.cn/directlink/ss/asia.yaml
+- type: clash
+  options:
+    url: http://ops.dosec.cn/directlink/ss/100Mb.yaml
 
 # 某个网站抓取
 - type: web-freessrxyz
