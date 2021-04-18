@@ -76,7 +76,10 @@ make
 ### 使用docker
 
 ```sh
-docker pull docker.pkg.github.com/Sansui233/proxypool/proxypool:latest
+git clone git@github.com:Billin9/proxypool.git
+cd proxypool
+docker build -t proxypool:v1 .
+docker run -d --name proxypool -v $(pwd)/config:/proxypool-src/config -p 12580:12580 proxypool:v1
 ```
 
 ## 使用
