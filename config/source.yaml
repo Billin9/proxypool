@@ -175,6 +175,27 @@
 - type: clash
   options:
     url: http://ops.dosec.cn/directlink/ss/100Mb.yaml
+- type: clash
+  options:
+    url: https://free.dswang.ga/clash/proxies
+- type: clash
+  options:
+    url: https://free886.herokuapp.com/clash/proxies
+- type: clash
+  options:
+    url: https://proxypool.fly.dev/clash/proxies?c=CN,HK,TW,JP,SG,KR
+- type: clash
+  options:
+    url: https://fq.lonxin.net/clash/proxies?c=CN,HK,TW,JP,SG,KR
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
+- type: clash
+  options:
+    url: https://jiedian1.coding.net/p/1/d/1/git/raw/master/2.txt
 
 # 某个网站抓取
 - type: web-freessrxyz
