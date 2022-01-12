@@ -183,10 +183,10 @@
     url: https://free886.herokuapp.com/clash/proxies
 - type: clash
   options:
-    url: https://proxypool.fly.dev/clash/proxies?c=CN,HK,TW,JP,SG,KR
+    url: https://proxypool.fly.dev/clash/proxies?c=CN,HK,TW,JP,SG,KR,US
 - type: clash
   options:
-    url: https://fq.lonxin.net/clash/proxies?c=CN,HK,TW,JP,SG,KR
+    url: https://fq.lonxin.net/clash/proxies?c=CN,HK,TW,JP,SG,KR,US
 - type: clash
   options:
     url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml
