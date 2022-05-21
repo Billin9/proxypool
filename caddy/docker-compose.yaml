@@ -1,0 +1,22 @@
+version: '2.2'
+
+services:
+  proxypool:
+    container_name: proxypool
+    image: hub.dosec.cn/private/proxypoolss:v1
+    # ports:
+    #   - "12580:12580"
+    restart: always
+    volumes:
+      - /root/proxypool/config:/proxypool-src/config
+
+  caddy:
+    container_name: caddy
+    image: abiosoft/caddy
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: always
+    volumes:
+      - ./Caddyfile:/etc/Caddyfile
+      - ./ssl:/root/.caddy

@@ -1,5 +1,5 @@
 # your domain
-domain: ss.dosec.cn:12580
+domain: ss.dosec.cn
 port:                 # default 12580
 
 # source list file

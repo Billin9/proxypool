@@ -1,0 +1,3 @@
+ss.dosec.cn {
+  proxy / proxypool:12580
+}

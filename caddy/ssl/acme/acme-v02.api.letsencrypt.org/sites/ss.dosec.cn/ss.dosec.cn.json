@@ -1,0 +1,5 @@
+{
+	"domain": "ss.dosec.cn",
+	"certUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/0310cbf26083b22c3d77c3f44649d136e764",
+	"certStableUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/0310cbf26083b22c3d77c3f44649d136e764"
+}
