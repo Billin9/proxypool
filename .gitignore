@@ -28,4 +28,4 @@ vendor
 assets/html/*
 assets/css/*
 assets/static/*
-
+caddy/ssl
