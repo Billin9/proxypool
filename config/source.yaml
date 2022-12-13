@@ -157,10 +157,6 @@
     num: 200
 - type: tgchannel
   options:
-    channel: freebaipiao
-    num: 200
-- type: tgchannel
-  options:
     channel: JiedianSsr
     num: 200
 - type: tgchannel
